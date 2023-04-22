@@ -1,3 +1,5 @@
+// Smallest array element user input
+
 #include<stdio.h>
 int main()
 {
@@ -5,6 +7,7 @@ int main()
     printf("Please enter size of an array\n");
     scanf("%d",&size);
     printf("Please enter numbers\n");
+// loop to store araay elements 
     for(i=0;i<=size;i++)
     {
         scanf("%d",&number[i]);
